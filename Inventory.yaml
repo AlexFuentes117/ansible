@@ -1,4 +1,4 @@
-# Sample Inventory File
+# Servers
 centos ansible_host=192.168.122.99 ansible_connection=ssh ansible_user=root
 ubuntu ansible_host=192.168.122.98 ansible_connection=ssh ansible_user=root
 
