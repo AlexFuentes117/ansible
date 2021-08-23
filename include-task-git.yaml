@@ -1,5 +1,0 @@
-- name: Instalar git 
-  yum:
-    name:
-      - git
-    state: latest
