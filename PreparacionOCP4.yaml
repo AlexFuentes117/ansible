@@ -1,5 +1,5 @@
 ---
-- hosts: pre_checks_OCP_alex12
+- hosts: pre_checks_OCP_alex
   remote_user: root
   tasks:
   - name: Instalar librerias necesarias para trabajar
