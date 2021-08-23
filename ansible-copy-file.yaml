@@ -1,8 +1,0 @@
---- 
-- name: "Copy file to hosts"
-  hosts: all
-  tasks: 
-    - name: "Copy File"
-      copy: 
-        src: /tmp/demofile.txt
-        dest: /tmp/demofile.txt
