@@ -1,0 +1,16 @@
+---
+- name: Primer Playbook
+  hosts: rhel.automation.local
+  remote_user: root
+  tasks:
+  - name: Instalar vim
+    yum:
+      name:
+        - vim
+      state: latest
+  - include: include-task-git.yaml
+
+- name: Segundo Playbook
+  include: include-playbook-wget.yaml
+
+

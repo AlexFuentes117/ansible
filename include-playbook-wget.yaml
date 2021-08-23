@@ -1,0 +1,10 @@
+---
+- name: Segundo Playbook
+  hosts: rhel.automation.local
+  remote_user: root
+  tasks:
+    - name: Instalar wget 
+      yum:
+        name:
+          - wget
+        state: latest

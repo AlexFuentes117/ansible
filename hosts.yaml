@@ -1,0 +1,16 @@
+localhost ansible_connection=local ansible_user=root
+
+[servers]
+centos ansible_host=192.168.122.99 ansible_connection=ssh ansible_user=root
+ubuntu ansible_host=192.168.122.98 ansible_connection=ssh ansible_user=root
+
+[Centos]
+centos ansible_host=192.168.122.99 ansible_connection=ssh ansible_user=root
+
+[Ubuntu]
+ubuntu ansible_host=192.168.122.98 ansible_connection=ssh ansible_user=root
+
+
+[subgrupo:children]
+Centos
+Ubuntu
