@@ -1,4 +1,7 @@
 # Sample Inventory File
+centos ansible_host=192.168.122.99 ansible_connection=ssh ansible_user=root
+ubuntu ansible_host=192.168.122.98 ansible_connection=ssh ansible_user=root
+
 
 # Web Servers
 web1 ansible_host=server1.company.com ansible_connection=ssh ansible_user=root ansible_ssh_pass=Password123!
