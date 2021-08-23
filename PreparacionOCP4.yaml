@@ -1,5 +1,5 @@
 ---
-- hosts: pre_checks_openshift
+- hosts: pre_checks_openshift-1
   remote_user: root
   tasks:
   - name: Instalar librerias necesarias para trabajar
